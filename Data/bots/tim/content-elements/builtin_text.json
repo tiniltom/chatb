@@ -1,0 +1,32 @@
+[
+  {
+    "id": "builtin_text-7EdT8i",
+    "formData": {
+      "text$en": "hello I'm a chat bot how may i help you",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-21T12:49:28.832Z",
+    "modifiedOn": "2019-07-21T12:49:28.832Z"
+  },
+  {
+    "id": "builtin_text-bLYust",
+    "formData": {
+      "text$en": "what is your name",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-21T12:50:16.193Z",
+    "modifiedOn": "2019-07-21T12:50:16.193Z"
+  },
+  {
+    "id": "builtin_text-_5rtV3",
+    "formData": {
+      "text$en": "thank you",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-21T12:51:33.400Z",
+    "modifiedOn": "2019-07-21T12:51:33.400Z"
+  }
+]

@@ -1,0 +1,2 @@
+//CHECKSUM:9a8980f82d617ee60c6dee3829664e4ff5067ad648d5f7864891e47c355e8883
+{"version":3,"sources":["../hooks/after_bot_unmount/00_delete_shortlink.js"],"names":["bp","http","deleteShortLink","botId"],"mappings":";;AAAAA,EAAE,CAACC,IAAH,CAAQC,eAAR,CAAwBC,KAAxB","sourceRoot":"/var/lib/jenkins/workspace/build-linux/modules/builtin/src/backend","sourcesContent":["bp.http.deleteShortLink(botId)\n"]}

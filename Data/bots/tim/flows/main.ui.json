@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    {
+      "id": "entry",
+      "position": {
+        "x": 75,
+        "y": 75
+      }
+    },
+    {
+      "id": "52aa191acc",
+      "position": {
+        "x": 194,
+        "y": 273
+      }
+    },
+    {
+      "id": "c061771822",
+      "position": {
+        "x": 530,
+        "y": 99
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "entry",
+      "sourcePort": "out0",
+      "target": "52aa191acc",
+      "points": [
+        {
+          "x": 282,
+          "y": 155
+        },
+        {
+          "x": 294,
+          "y": 267
+        }
+      ]
+    },
+    {
+      "source": "52aa191acc",
+      "sourcePort": "out0",
+      "target": "c061771822",
+      "points": [
+        {
+          "x": 401,
+          "y": 353
+        },
+        {
+          "x": 630,
+          "y": 93
+        }
+      ]
+    }
+  ]
+}

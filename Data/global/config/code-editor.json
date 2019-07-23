@@ -1,0 +1,6 @@
+{
+  "$schema": "../../assets/modules/code-editor/config.schema.json",
+  "allowGlobal": false,
+  "includeBuiltin": false,
+  "includeBotConfig": false
+}

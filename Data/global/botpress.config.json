@@ -1,0 +1,161 @@
+{
+  "$schema": "../botpress.config.schema.json",
+  "httpServer": {
+    "host": "localhost",
+    "port": 3000,
+    "backlog": 0,
+    "bodyLimit": "100kb",
+    "cors": {
+      "enabled": true
+    },
+    "session": {
+      "enabled": false,
+      "maxAge": "1h"
+    }
+  },
+  "dialog": {
+    "janitorInterval": "10s",
+    "timeoutInterval": "2m",
+    "sessionTimeoutInterval": "30m"
+  },
+  "logs": {
+    "dbOutput": {
+      "expiration": "2 weeks",
+      "janitorInterval": "30s"
+    },
+    "fileOutput": {
+      "enabled": false,
+      "folder": "./",
+      "maxFileSize": 10000
+    }
+  },
+  "modules": [
+    {
+      "location": "MODULES_ROOT/analytics",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/basic-skills",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/builtin",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/channel-messenger",
+      "enabled": false
+    },
+    {
+      "location": "MODULES_ROOT/channel-telegram",
+      "enabled": false
+    },
+    {
+      "location": "MODULES_ROOT/channel-web",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/code-editor",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/extensions",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/history",
+      "enabled": false
+    },
+    {
+      "location": "MODULES_ROOT/hitl",
+      "enabled": false
+    },
+    {
+      "location": "MODULES_ROOT/nlu",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/qna",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/testing",
+      "enabled": true
+    }
+  ],
+  "pro": {
+    "collaboratorsAuthStrategies": [
+      "default"
+    ],
+    "enabled": false,
+    "licenseKey": "paste your license key here",
+    "monitoring": {
+      "enabled": false,
+      "collectionInterval": "10s",
+      "retentionPeriod": "10d",
+      "janitorInterval": "15m"
+    },
+    "alerting": {
+      "enabled": false,
+      "watcherInterval": "10s",
+      "retentionPeriod": "10d",
+      "janitorInterval": "15m",
+      "rules": []
+    },
+    "externalAuth": {
+      "enabled": false,
+      "algorithms": [
+        "HS256"
+      ],
+      "publicKey": "insert key here"
+    }
+  },
+  "superAdmins": [
+    {
+      "email": "tiniltom98@gmail.com",
+      "strategy": "default"
+    }
+  ],
+  "sendUsageStats": true,
+  "dataRetention": {
+    "janitorInterval": "10m",
+    "policies": {}
+  },
+  "botCategories": [],
+  "allowServerReboot": true,
+  "fileUpload": {
+    "maxFileSize": "10mb",
+    "allowedMimeTypes": [
+      "image/jpeg",
+      "image/png",
+      "image/gif"
+    ]
+  },
+  "jwtToken": {
+    "duration": "6h",
+    "allowRefresh": true
+  },
+  "autoRevision": false,
+  "eventCollector": {
+    "enabled": true,
+    "collectionInterval": "1s",
+    "retentionPeriod": "30d",
+    "ignoredEventTypes": [
+      "visit",
+      "typing"
+    ],
+    "ignoredEventProperties": []
+  },
+  "authStrategies": {
+    "default": {
+      "type": "basic",
+      "allowSelfSignup": false,
+      "options": {
+        "maxLoginAttempt": 0
+      }
+    }
+  },
+  "showPoweredBy": true,
+  "version": "12.0.2",
+  "appSecret": "zoBnvK4TBTpxgFQWPUiHgjjc799Lqtqqnzjc41WO"
+}

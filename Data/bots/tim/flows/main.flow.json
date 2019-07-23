@@ -1,0 +1,52 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-4397"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-7EdT8i"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "52aa191acc",
+      "name": "node-4397",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-2b16"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-bLYust"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "c061771822",
+      "name": "node-2b16",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-_5rtV3"
+      ],
+      "onReceive": null
+    }
+  ]
+}
